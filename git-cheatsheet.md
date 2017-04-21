@@ -30,11 +30,15 @@ git rebase origin/master    # Rebases current branch onto origin/master`
 
 ---
 
-## Links
-** Setting up a new remote git repository **
-<https://gist.github.com/toolmantim/569530>
+## Other info
 
-<https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/>
-
-** Global git ignore file **
+** Global git ignore file **  
 located in `~/.gitignore_global`
+
+---
+
+## Links
+
+ - [Setting up a new remote git repository](https://gist.github.com/toolmantim/569530)
+
+- [Add existing project from CLI](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
