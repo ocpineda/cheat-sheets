@@ -33,15 +33,14 @@
     C-n    next line
     C-p    previous line
 
-    BACK        delete a char before cursor
-    C-d           delete next char after cursor
+    BACK      delete a char before cursor
+    C-d       delete next char after cursor
     M-BACK    delete word before cursor
-    M-d           kill word
-    M-k           kill sentence
-    C-k            kill to eol
-    C-y            'yanks' the text back.  It reinserts text you killed.
-                     You can't yank text you deleted.
-    M-y           Retyping this will yank earlier kills
+    M-d       kill word
+    M-k       kill sentence
+    C-k       kill to eol
+    C-y       'yanks' the text back.  It reinserts text you killed. You can't yank text you deleted.
+    M-y       Retyping this will yank earlier kills
 
     C-a   move to beginning of the line
     C-e   move to the end of the line
@@ -60,41 +59,41 @@ You copy things in terms of blocks in Emacs.  You set a marker for the beginning
     C-w      cut
     C-y      paste
 
-    C-/       undo.  You can also do C-x u, but / is easier.
+    C-/      undo.  You can also do C-x u, but / is easier.
     C-_      redo
 
     C-x h   select all
 
 
 ## Search & Replace
-    C-s           search.  Press again for next occurrence.
-    C-r           search previous or search backwards.  Type enter to cancel the search
-    C-g          return to starting point
+    C-s         search.  Press again for next occurrence.
+    C-r         search previous or search backwards.  Type enter to cancel the search  
+    C-g         return to starting point
     M-%         replace string
-    C-q C-j    newline
-    C-q C-m  carriage return
+    C-q C-j     newline
+    C-q C-m     carriage return
 
 
 ## Windows  
 ```
-    C-x 2       split into 2 windows
-    C-x o       Move to the (o)ther pane
-    C-x 1       1 window
-    M-`          Command line menus
+    C-x 2                   split into 2 windows
+    C-x o                   Move to the (o)ther pane
+    C-x 1                   1 window
+    M-`                     Command line menus
     hold c + right click    popup menu
 ```
 
 ##  Help  
     C-h i           Info.  Enter to follow link.  Last page 'l', next section 'n', previous section 'p'
-    M-x man    Man
-    C-h t          Interactive tutorial
+    M-x man         Man
+    C-h t           Interactive tutorial
     C-h <command>   Tells you what <command> does
 
 
 ##  Numeric Arguments  
     C-u <number> <command>    Executes a command by a certain number
 
-  Examples: 
+  Examples:
 ```
     C-u 8 C-n    Move down 8 lines  
     C-u 10 *       Print 8 asterisks
