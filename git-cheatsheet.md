@@ -34,7 +34,7 @@ git rebase origin/master    # Rebases current branch onto origin/master`
 
 ## Other info
 
-** Global git ignore file **    
+**Global git ignore file**    
 located in `~/.gitignore_global`
 
 <!-- ***************************************************************** -->
