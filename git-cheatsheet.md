@@ -1,41 +1,43 @@
 ## Shortcuts  
 
-** Create bare remote repo **  
+**Create bare remote repo**  
 `ssh user@host git init --bare /path/to/repo.git`  
 
-** List local branches **  
+**List local branches **  
 `git branch`  
 
-** Checkout a local branch **  
+**Checkout a local branch**  
 `git checkout branch_name`  
 
-** Create new branch **  
+**Create new branch**  
 `git checkout -b myNewBranch branchingFrom`
 
-** Push branch to remote **   
+**Push branch to remote**   
 `git push -u origin branch_name`  
 
-** Delete local branch **  
+**D elete local branch**  
 `git branch -d branch_name`  
 
-** Delete remote branch **  
+**Delete remote branch**  
 `git push origin --delete branch_name`  
 
-** Diff two branches **  
+**Diff two branches**  
 `git diff master..test-dev`  
 
-** Rebase from remote **
-`git fetch origin            # Updates origin/master
+**Rebase from remote**  
+```
+git fetch origin            # Updates origin/master  
 git rebase origin/master    # Rebases current branch onto origin/master`
+```
 
----
+<!-- ***************************************************************** -->
 
 ## Other info
 
-** Global git ignore file **  
+** Global git ignore file **    
 located in `~/.gitignore_global`
 
----
+<!-- ***************************************************************** -->
 
 ## Links
 
