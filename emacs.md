@@ -8,13 +8,13 @@
 
 
 ## File Processing
-    C-x C-f     open new file
+    C-x C-f    open new file
     C-x C-v    open another file instead, in the same buffer
     C-x C-s    Save file
-    C-x C-w   Save as and then type file name in mini buffer.  Same as "save as"
-    C-x k       Close or "kill" current file
-    C-g          Quit command.  This is great when you accidentally type the wrong command **
-    C-x s       Save all modified files
+    C-x C-w    Save as and then type file name in mini buffer.  Same as "save as"
+    C-x k      Close or "kill" current file
+    C-g        Quit command.  This is great when you accidentally type the wrong command **
+    C-x s      Save all modified files
     C-x C-c    Exit emacs
 
 
