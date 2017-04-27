@@ -15,7 +15,7 @@
 **Push branch to remote**   
 `git push -u origin branch_name`  
 
-**D elete local branch**  
+**Delete local branch**  
 `git branch -d branch_name`  
 
 **Delete remote branch**  
@@ -29,6 +29,13 @@
 git fetch origin            # Updates origin/master  
 git rebase origin/master    # Rebases current branch onto origin/master`
 ```
+
+**Remove file from local file system, and repo**  
+`git rm file1.txt`  
+`git commit -m "remove file1.txt"`
+
+**Remove from Git repo only**  
+`git rm --cached file1.txt`
 
 <!-- ***************************************************************** -->
 
