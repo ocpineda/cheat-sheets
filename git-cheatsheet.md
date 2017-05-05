@@ -26,8 +26,8 @@
 
 **Rebase from remote**  
 ```
-git fetch origin            # Updates origin/master  
-git rebase origin/master    # Rebases current branch onto origin/master`
+git fetch origin            # Updates origin/master    
+git rebase origin/master    # Rebases current branch onto origin/master`  
 ```
 
 **Remove file from local file system, and repo**  
