@@ -1,3 +1,5 @@
+This cheatsheet is for anyone using *OSX 10.5* mode in IntelliJ.
+
 ## NAVIGATION
 
 **Move to matching brace**  
