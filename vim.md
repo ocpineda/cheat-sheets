@@ -16,11 +16,11 @@ b, B previous word
 
 w,W jump to start of words, jump word spaces
 
-Matching >, ], or }
+## Matching >, ], or }
 
 % Jump to matching bracket, paren, brace, less than sign.
 
-Editing
+## Editing
 
 u undo last command
 
@@ -54,12 +54,10 @@ c$ change to end
 
 o,O open a new a new line below the cursor, open above the cursor
 
-using a count as a motion and delete
+## using a count as a motion and delete
+`<number>w` ex: 2w move two words
 
-<number>w ex: 2w move two words
-
-Search
-
+## Search
 / to search a phrase
 
 ? search for occurrence
@@ -80,8 +78,7 @@ The Substitute Command (search and replace)
 
 :s/foo/bar/g replace all foo with bar in the current line
 
-Cursor Movement
-
+## Cursor Movement
 Ctrl-G show cursor placement
 
 <num>G go to line number
@@ -96,6 +93,6 @@ gk line up
 
 gj line down
 
-Visual Mode
+## Visual Mode
 
 v, V highlight one character at a time, block at a time.
