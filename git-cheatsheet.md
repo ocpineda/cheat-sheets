@@ -3,7 +3,7 @@
 **Create bare remote repo**  
 `ssh user@host git init --bare /path/to/repo.git`  
 
-**List local branches **  
+**List local branches**  
 `git branch`  
 
 **Checkout a local branch**  
@@ -36,6 +36,13 @@ git rebase origin/master    # Rebases current branch onto origin/master`
 
 **Remove from Git repo only**  
 `git rm --cached file1.txt`
+
+---
+
+## Hotfix
+If there has to be a hotfix in production, you should branch from a tag release of production from prior to the bug being introduced.
+
+`git checkout tags/<tag_name> -b <branch_name>`
 
 <!-- ***************************************************************** -->
 
