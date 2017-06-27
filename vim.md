@@ -10,18 +10,16 @@
 `G`       go to end of file  
 `0`       move to start of line  
 `$`       move to end of line  
-`w`, `W`  next word
-
-b, B previous word
-
-w,W jump to start of words, jump word spaces
+`w`, `W`  next word  
+`b, B `   previous word
+`w,W`     jump to start of words, jump word spaces
 
 ## Matching >, ], or }
 
 % Jump to matching bracket, paren, brace, less than sign.
 
 ## Editing
-
+```
 u undo last command
 
 U undo line
@@ -53,6 +51,8 @@ cw change word
 c$ change to end
 
 o,O open a new a new line below the cursor, open above the cursor
+```
+
 
 ## using a count as a motion and delete
 `<number>w` ex: 2w move two words
