@@ -24,6 +24,9 @@
 **Diff two branches**  
 `git diff master..test-dev`  
 
+**Diff branches and return file names**
+`git diff --name-only master...stage`
+
 **Rebase from remote**  
 ```
 git fetch origin            # Updates origin/master    
