@@ -1,19 +1,30 @@
-# Lumen / Laravel 
+# 1. Lumen / Laravel 
 
+<!-- TOC -->
 
-## Lumen 
+- [1. Lumen / Laravel](#1-lumen--laravel)
+    - [1.1. Lumen](#11-lumen)
+        - [1.1.1. Routes](#111-routes)
+            - [1.1.1.1. Return a view](#1111-return-a-view)
+        - [1.1.2. Blade Commands](#112-blade-commands)
+    - [1.2. Laravel](#12-laravel)
+        - [1.2.1. Artisan commands](#121-artisan-commands)
+
+<!-- /TOC -->
+
+## 1.1. Lumen 
 
 `env('MY_CONSTANT');` //calls constants in .env
 
 `config('services.sparkpost.secret');` //call something in 'config/services.php'
 
 
-### Routes
+### 1.1.1. Routes
 
 in `routes/web.php` you use can use a closure
 
 
-#### Return a view
+#### 1.1.1.1. Return a view
 
 ```php
 
@@ -31,7 +42,7 @@ $app->get('/about', 'MyController@myControllerFunction');
 ```
 
 
-### Blade Commands
+### 1.1.2. Blade Commands
 
  COMMAND                            |        DESCRIPTION                
 :-------------------------------    |:----------------------------------
@@ -54,9 +65,9 @@ $app->get('/about', 'MyController@myControllerFunction');
     ************************************************
 -->
 
-## Laravel
+## 1.2. Laravel
 
-### Artisan commands
+### 1.2.1. Artisan commands
 
 `php artisan routes:list`
 
