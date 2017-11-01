@@ -96,3 +96,7 @@ gj line down
 ## Visual Mode
 
 v, V highlight one character at a time, block at a time.
+
+## Resources
+
+- [Vundle tutorial](https://c7.se/switching-to-vundle/)
