@@ -99,4 +99,6 @@ v, V highlight one character at a time, block at a time.
 
 ## Resources
 
+- [Vim Cheatsheet](http://vimsheet.com/)
 - [Vundle tutorial](https://c7.se/switching-to-vundle/)
+
