@@ -4,8 +4,10 @@
 `:w`    save  
 `:wq`   save and quit  
 `:!`    &lt;command&gt; execute an external command.  
+`set number`, `set nonumber` set and unset line numbers
 
 ## Cursor movement
+
 `gg`      go to beginning of file  
 `G`       go to end of file  
 `0`       move to start of line  
