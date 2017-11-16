@@ -18,7 +18,7 @@ This cheatsheet is for anyone using *OSX 10.5* mode in IntelliJ.
 `CMD + O`  
 
 **GOTO file:**  
-`SHIFT + CMD + N`
+`SHIFT + CMD + O`
 
 **GOTO symbol**  
 `ALT + CMD + O`

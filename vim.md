@@ -18,7 +18,7 @@
 
 ## Matching >, ], or }
 
-% Jump to matching bracket, paren, brace, less than sign.
+`%` Jump to matching bracket, paren, brace, less than sign.
 
 ## Editing
 ```
@@ -60,44 +60,46 @@ o,O open a new a new line below the cursor, open above the cursor
 `<number>w` ex: 2w move two words
 
 ## Search
-/ to search a phrase
+`/` to search a phrase
 
-? search for occurrence
+`?` search for occurrence
 
-n for next, N for previous occurrence
+`n` for next, `N` for previous occurrence
 
-Ctl-o go back to last cursor placement
+`Ctl-o` go back to last cursor placement
 
-Ctl-i goes forward instead
+`Ctl-i` goes forward instead
 
-The Substitute Command (search and replace)
+### The Substitute Command (search and replace)
 
-:%s/foo/bar/g find all foo and replace it with bar
+`:%s/foo/bar/g` find all foo and replace it with bar
 
-:%s/foo/bar/gc find all foo and replace, but ask for confirmation
+`:%s/foo/bar/gc` find all foo and replace, but ask for confirmation
 
-:%s/foo/bar/gci case sensitive find and replace with confirmation
+`:%s/foo/bar/gci` case sensitive find and replace with confirmation
 
-:s/foo/bar/g replace all foo with bar in the current line
+`:s/foo/bar/g` replace all foo with bar in the current line
 
 ## Cursor Movement
-Ctrl-G show cursor placement
+`Ctrl-G` show cursor placement
 
-<num>G go to line number
+`<num>G` go to line number
 
-{ begin para
+`{` begin para
 
-} end para
+`}` end para
 
-page up/down Ctrl+U, Ctrl+D
+`Ctrl+U, Ctrl+D` page up/down
 
-gk line up
+`gk` line up
 
-gj line down
+`gj` line down
 
 ## Visual Mode
 
-v, V highlight one character at a time, block at a time.
+`v, V`  highlight one character at a time, block at a time.
+`v, "highlight", x or dd`  delete several lines at a time in visual mod
+
 
 ## Resources
 
