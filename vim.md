@@ -97,8 +97,8 @@ o,O open a new a new line below the cursor, open above the cursor
 
 ## Visual Mode
 
-`v, V`  highlight one character at a time, block at a time.
-`v, "highlight", x or dd`  delete several lines at a time in visual mod
+`v, V`  highlight one character at a time, block at a time.   
+`v, "highlight", x or dd`  delete several lines at a time in visual mode
 
 
 ## Resources
