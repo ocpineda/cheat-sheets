@@ -40,6 +40,9 @@ git rebase origin/master    # Rebases current branch onto origin/master`
 **Remove from Git repo only**  
 `git rm --cached file1.txt`
 
+**Change git user in CLI**
+`git config credential.username 'ocpineda'`
+
 ---
 
 ## Hotfix

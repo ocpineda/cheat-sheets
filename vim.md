@@ -16,6 +16,14 @@
 `b, B `   previous word
 `w,W`     jump to start of words, jump word spaces
 
+
+## Goto line
+Go to line 42
+
+42G
+42gg
+:42<CR>
+
 ## Matching >, ], or }
 
 `%` Jump to matching bracket, paren, brace, less than sign.
