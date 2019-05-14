@@ -64,3 +64,5 @@ located in `~/.gitignore_global`
  - [Setting up a new remote git repository](https://gist.github.com/toolmantim/569530)
 
 - [Add existing project from CLI](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
+
+- [Sparse checkouts](https://briancoyner.github.io/2013/06/05/git-sparse-checkout.html)
