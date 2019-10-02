@@ -8,13 +8,28 @@ CTL + [ + s
 F12 or 
 Hold CTL + click
 
+
+## Comment & Uncomment
+`CTL + K` then `CTL + C` to comment
+`CL + K` then `CTL + U` to uncomment
+
 ## Peek definition
 ALT + F12
 
-## Start debugging
-F5
-
 ## Open breakpoints browser
 CTL + ALT + b
+
+---
+
+## Debugging
+
+### Step into
+F11
+
+### Start debugging
+F5
+
+### Start without debugging
+CTL + F5
 
 
