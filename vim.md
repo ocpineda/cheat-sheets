@@ -109,6 +109,10 @@ o,O open a new a new line below the cursor, open above the cursor
 `v, "highlight", x or dd`  delete several lines at a time in visual mode
 
 
+## Vim opening options
+
+Open in view only mode `view <name of file>`
+
 ## Resources
 
 - [Vim Cheatsheet](http://vimsheet.com/)
