@@ -42,10 +42,6 @@ i, a insert before, or after cursor
 
 I, A insert before, or after a line
 
-p puts previously deleted line in front of cursor. When used with dd it works like cut and
-
-paste
-
 d2w delete two words
 
 dd. D delete a line
@@ -62,6 +58,13 @@ c$ change to end
 
 o,O open a new a new line below the cursor, open above the cursor
 ```
+
+
+### Copy & Paste
+1. Press `V` for the entire line, or `v` for the cursor
+2. `y` to copy. `d` to cut
+3. `p` puts previously deleted line in front of cursor. When used with dd it works like cut and paste
+
 
 
 ## using a count as a motion and delete
