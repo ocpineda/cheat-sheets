@@ -14,22 +14,22 @@ Hold CTL + click
 `CL + K` then `CTL + U` to uncomment
 
 ## Peek definition
-ALT + F12
+`ALT + F12`
 
 ## Open breakpoints browser
-CTL + ALT + b
+`CTL + ALT + b`
 
 ---
 
 ## Debugging
 
 ### Step into
-F11
+`F11`
 
 ### Start debugging
-F5
+`F5`
 
 ### Start without debugging
-CTL + F5
+`CTL + F5`
 
 
