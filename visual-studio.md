@@ -1,13 +1,16 @@
 ## Go to file
-CTL + ALT + t
+`CTL + ALT + t`
 
 ## Go to solutions explorer for current selection: 
-CTL + [ + s
+`CTL + [ + s`
 
 ## Go to definition
-F12 or 
-Hold CTL + click
+`F12` or 
+Hold `CTL + click`
 
+## Go to matching curly brace, symbol
+Go to the first symbol and move caret so it highlights the symbol, then
+`CTL + ]`
 
 ## Comment & Uncomment
 `CTL + K` then `CTL + C` to comment
@@ -21,6 +24,7 @@ Hold CTL + click
 
 ---
 
+<!-- ------------------- Debugging ------------->
 ## Debugging
 
 ### Step into
